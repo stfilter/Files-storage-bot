@@ -1,17 +1,17 @@
 import os
 
 class Config(object):
-  API_ID = int(os.environ.get("API_ID", ""))
-  API_HASH = os.environ.get("API_HASH", "")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", ""))
+  API_ID = int(os.environ.get("API_ID", "20247467"))
+  API_HASH = os.environ.get("API_HASH", "8ab4a0d75eec6fe40b85144c2c0ff418")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "8ab4a0d75eec6fe40b85144c2c0ff418")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "dm_panda")
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001994045222"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "MoneyKamalo.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "0eefb93e1e3ce9470a7033115ceb1bad13a9d674")
-  BOT_OWNER = int(os.environ.get("BOT_OWNER", ""))
-  DATABASE_URL = os.environ.get("DATABASE_URL", "")
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
-  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+  BOT_OWNER = int(os.environ.get("BOT_OWNER", "1595465271"))
+  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://joni:joni2024@cluster0.5kijbcp.mongodb.net/?retryWrites=true&w=majority")
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001637798696")
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001994045222"))
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
   FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
   BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
@@ -32,11 +32,11 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 ╰──────[ 😎 ]───────────⍟
 """
   ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [VJ](https://telegram.me/KingVj01)
+🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [ST✓](https://telegram.me/)
  
  I am Super noob Please Support My Hard Work.
 
-[Donate Me](https://t.me/KingVj01)
+[Donate Me](https://t.me/STThamizhan)
 """
   HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
